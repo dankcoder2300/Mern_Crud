@@ -12,7 +12,7 @@ dotenv.config();
 
 
 const PORT = process.env.PORT || 7000;
-const URL = process.env.MONGOURL;
+const URL = process.env.MONGO_URL;
 
 mongoose.connect(URL, { useNewUrlParser: true, useUnifiedTopology: true ,family:4}).then(()=>{
 
